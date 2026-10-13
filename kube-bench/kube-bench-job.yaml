@@ -10,8 +10,8 @@ spec:
         app: kube-bench
     spec:
       containers:
-        - command: ["kube-bench", "--benchmark", "k3s-cis-1.7", "run"]
-          image: docker.io/aquasec/kube-bench:v0.15.0
+        - command: ["kube-bench", "--benchmark", "k3s-cis-1.9", "run"]
+          image: docker.io/aquasec/kube-bench:v0.16.0
           name: kube-bench
           volumeMounts:
             - name: var-lib-cni

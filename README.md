@@ -1,7 +1,6 @@
-# Мастер-класс на CodeFest'16
+# Мастер-класс
 
-Open source на страже Kubernetes Runtime Security \
-https://16.codefest.ru/lecture/3259
+Open source на страже Kubernetes Runtime Security
 
 ## Тезисы
 Мастер-класс ориентирован на широкий круг слушателей. Он включает в себя несколько секций, в содержании которых мы планируем:

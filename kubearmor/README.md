@@ -6,7 +6,7 @@
     - [Установка Helm](#установка-helm)
     - [Установка оператора KubeArmor](#установка-оператора-kubearmor)
     - [Подготовка образа](#подготовка-образа)
-    - [Дкплой](#дкплой)
+    - [Деплой](#деплой)
   - [Демонстрация](#демонстрация)
   - [Очистка кластера](#очистка-кластера)
 
@@ -158,7 +158,7 @@ sudo docker save bad-app:latest | sudo k3s ctr images import -
 sudo k3s ctr images list | grep bad-app
 ```
 
-### Дкплой
+### Деплой
 
 ```bash
 kubectl run test-pod-baked \
